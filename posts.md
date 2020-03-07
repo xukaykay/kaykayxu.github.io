@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Posts
 ---
 
 # All My Posts Are Here
