@@ -4,25 +4,9 @@ layout: page
 
 # All My Posts Are Here
 
-<main class="container">
-  <div class="row">
-    <div class="col-2">
-      <h1>{{ site.title }}</h1>
-      <p class="lead">
-          <br/>{{ site.desc }}
-      </p>
-      <article>
-        <h1>Posts</h1>
-      </article>
-      {% for post in tinyblog.posts %}
-      <article>
-        <h1>{{ post.title }}</h1>
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ site.baseurl }}/{{ post.url }}">[ Read ]</a>
-      </article>
-      {% endfor %}
-      {% include buttons.html %}
-    </div>
-    {% include sidebar.html %}
-  </div>
-</main>
+{% for post in site.posts reversed %}
+    <li class="title-li">
+        <span class="write-time"># 发表于： {{ post.date | date_to_string }} </span>
+        <a class="blog-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
