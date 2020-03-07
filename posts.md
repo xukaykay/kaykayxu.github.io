@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: defaul
+title: Posts
 ---
 
 # All My Posts Are Here
