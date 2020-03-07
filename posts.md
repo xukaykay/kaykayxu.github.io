@@ -4,8 +4,11 @@ layout: page
 
 # All My Posts Are Here
 
-{% for post in site.posts %}
-<p>{{post.title}}</p>
-<p>{{ post.date | date: "%b %d, %Y" }}</p>
-<p>{{post.thumbnail}}</p>
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
