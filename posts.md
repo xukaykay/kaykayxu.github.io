@@ -14,7 +14,7 @@ layout: page
       <article>
         <h1>Posts</h1>
       </article>
-      {% for post in paginator.posts %}
+      {% for post in tinyblog.posts %}
       <article>
         <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt }}</p>
