@@ -10,6 +10,6 @@ I'm a student.
 
 Here are my posts.
 
-## Photos
+## [Photos](https://xukaykay.github.io/tinyblog/photos.html)
 
 Photos I took. 
