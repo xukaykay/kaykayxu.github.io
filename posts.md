@@ -1,3 +1,1 @@
-layout: page
-title: "All My Posts"
-permalink: /posts/
+All My Posts Are Here
