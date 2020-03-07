@@ -2,7 +2,7 @@
 
 I use this blog to record my life. 
 
-## About Me
+## [About Me](https://xukaykay.github.io/tinyblog/about.html)
 
 I'm a student.
 
