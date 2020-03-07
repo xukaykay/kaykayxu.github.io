@@ -1,1 +1,6 @@
+title: Xukaykay's Tiny Blog
+logo: /assets/img/logo.png
+description: My tiny site
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
