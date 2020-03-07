@@ -6,7 +6,7 @@ I use this blog to record my life.
 
 I'm a student.
 
-### Posts(https://xukaykay.github.io/tinyblog/posts.html)
+### Posts[https://xukaykay.github.io/tinyblog/posts.htm](url)
 
 Here are my posts.
 
