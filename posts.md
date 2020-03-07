@@ -3,7 +3,7 @@ layout: default
 title: Posts
 ---
 
-# All My Posts Are Her
+# All My Posts Are Here
 
 <ul>
   {% for post in site.posts %}
